@@ -113,12 +113,14 @@ header {
     grid-row: row6x;
     position: relative;
     top: 1em;
+	background-color: #FF007C;
 }
 
 .actinoids {
     grid-row: row7x;
     position: relative;
     top: 1em;
+	background-color: #E936A7;
 }
 
 .noble-gas {
@@ -147,15 +149,7 @@ header {
     margin-bottom: 0.5em;
 }
 
-.lanthanoid {
-    background-color: #FF007C;
-}
-
-.actinoids {
-    background-color: #E936A7;
-}
-
-.alkail-metal {
+.alkali-metal {
     background-color: #339933;
 }
 
@@ -191,18 +185,19 @@ header {
   display: flex;        
   flex-wrap: wrap;      
   gap: 8px;             
-  margin-top: 14px;     
+  margin-top: 18px;     
 }
 
 .chip {
-	display:inline-flex; 
+	display:flex; 
 	align-items:center; 
 	gap:8px; 
 	padding:6px 10px; 
 	border-radius:999px; 
 	border:1px solid rgba(255,255,255,0.1); 
 	background:rgba(255,255,255,0.04); 
-	font-size:12px; 
+	font-size:14px; 
+	color: white;
 }
 
 .dot {
