@@ -15,8 +15,7 @@
 		<h3>Click any element to view details. Select two to see a basic reaction preview in the jars.</h3>
     </header>
 	
-	
-
+  <main class="lab-layout">
     <div class='periodic-table'>
 
 	<div class='element ele-1 reactive-nonmetal gas'>
@@ -500,8 +499,31 @@
             <div class='element-name' title='Oganesson'>Og</div>
         </div>
 	</div>
-		
-	<div class="legend">
+	
+	<aside class="panel">
+		<div class="card" id="details">
+			<h3>Element Details</h3>
+		<div class="muted">Select an element to see its info.</div>
+    </div>
+
+    <div class="card">
+      <h3>Reaction Jars</h3>
+      <div class="jars">
+        <div class="jar" id="jar1"><label>Jar 1</label><div class="fill" id="fill1"></div><b>Empty</b></div>
+        <div class="jar" id="jar2"><label>Jar 2</label><div class="fill" id="fill2"></div><b>Empty</b></div>
+      </div>
+      <div class="jars" style="margin-top:10px">
+        <div class="jar" id="jarMix" style="flex:1 0 100%"><label>Result</label><div class="fill" id="fillMix"></div><b>—</b></div>
+      </div>
+      <div class="actions">
+        <button id="clearBtn">Clear Selection</button>
+        <button class="secondary" id="helpBtn">What reacts?</button>
+      </div>
+    </div>
+  </aside>
+ </main>
+  
+  	<div class="legend">
 		<div class="chip"><span class="dot" style="background:#339933;"></span> Alkali Metal</div>
 		<div class="chip"><span class="dot" style="background:#ff1a1a;"></span> Alkaline Earth Metal</div>
 		<div class="chip"><span class="dot" style="background:#ffff00;"></span> Noble Gas</div>
@@ -514,8 +536,10 @@
 		<div class="chip"><span class="dot" style="background:#E936A7;"></span> Actinide</div>
 	</div>
 
-
-
+  <script src="script.js"></script>
 </body>
 </html>
+		
+
+
 
