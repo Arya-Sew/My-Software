@@ -322,13 +322,6 @@ header {
 		filter:brightness(1.05); 
 	}
 	
-    button.secondary{
-		background:var(--accent); 
-		color:white; 
-		border:1px solid rgba(255,255,255,0.14); 
-		box-shadow:none;
-	}
-
     /* f-block strip */
     .fblock{
 		margin-top:16px;
